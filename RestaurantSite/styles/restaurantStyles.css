@@ -1,0 +1,63 @@
+/*
+Creator: AJ Borman
+Date Created: 1/14/2020
+Most Recent Revision:
+*/
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid black;
+
+}
+
+nav {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 4px;
+}
+
+
+nav a {
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px 20px;
+    width: 150px;
+    float: left;
+}
+
+nav a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: teal
+}
+
+.clear-float {
+    clear:both;
+}
+
+label {
+    font-weight: bold;
+}
+
+form p {
+    font-weight: bold;
+}
